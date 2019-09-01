@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="14460.31"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="DesktopSplitter" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="DesktopSplitter" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About Desktop Splitter" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Item" id="YUc-eh-k4A">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem title="Snap Window" id="VCZ-xW-Llj">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <menu key="submenu" title="Snap Window" id="ban-BB-Z6x">
+                                                <items>
+                                                    <menuItem title="Placeholder" id="zWd-UK-yp1">
+                                                        <modifierMask key="keyEquivalentModifierMask"/>
+                                                    </menuItem>
+                                                </items>
+                                            </menu>
+                                        </menuItem>
+                                        <menuItem title="Preferences…" id="BOF-NM-1cW">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit Desktop Splitter" id="4sb-4s-VLi">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="DesktopSplitter" customModuleProvider="target">
+                    <connections>
+                        <outlet property="mainMenu" destination="uQy-DD-JDr" id="Z3h-Ou-ALs"/>
+                    </connections>
+                </customObject>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="153" y="-33"/>
+        </scene>
+        <!--SuggestedSnapsViewController-->
+        <scene sceneID="9EY-V2-i9F">
+            <objects>
+                <viewController storyboardIdentifier="SuggestedSnapsViewController" id="rDg-2n-QqS" userLabel="SuggestedSnapsViewController" customClass="SuggestedSnapsViewController" customModule="DesktopSplitter" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" autoresizesSubviews="NO" selectable="YES" allowsEmptySelection="NO" id="QKq-K7-T7n" userLabel="SuggestedSnapsView" customClass="SuggestedSnapsView" customModule="DesktopSplitter" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" id="hqq-dn-LiY">
+                            <size key="itemSize" width="50" height="50"/>
+                        </collectionViewFlowLayout>
+                        <color key="primaryBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <connections>
+                            <outlet property="flowLayout" destination="hqq-dn-LiY" id="KAc-Yg-4YA"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <outlet property="suggestedSnapsView" destination="QKq-K7-T7n" id="mt2-s7-3C8"/>
+                    </connections>
+                </viewController>
+                <customObject id="qRb-h4-ejn" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="648"/>
+        </scene>
+        <!--SuggestedSnapsWindowController-->
+        <scene sceneID="cZo-5r-Oze">
+            <objects>
+                <windowController storyboardIdentifier="SuggestedSnapsWindowController" id="4ue-Ub-6fB" userLabel="SuggestedSnapsWindowController" customClass="SuggestedSnapsWindowController" customModule="DesktopSplitter" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" hasShadow="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" tabbingMode="disallowed" titleVisibility="hidden" id="hoK-Eb-wIp" userLabel="SuggestedSnapsWindow" customClass="SuggestedSnapsWindow" customModule="DesktopSplitter" customModuleProvider="target">
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="334" y="205" width="480" height="270"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1057"/>
+                        <connections>
+                            <outlet property="delegate" destination="4ue-Ub-6fB" id="tPd-1z-YCJ"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="rDg-2n-QqS" kind="relationship" relationship="window.shadowedContentViewController" id="8cq-dX-kSP"/>
+                    </connections>
+                </windowController>
+                <customObject id="7ZK-Ds-F4r" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="152" y="214"/>
+        </scene>
+    </scenes>
+</document>

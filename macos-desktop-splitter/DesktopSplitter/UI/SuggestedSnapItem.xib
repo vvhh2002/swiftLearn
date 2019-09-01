@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="SuggestedSnapItem" customModule="DesktopSplitter" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="272" height="272"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="2KQ-Po-e55" userLabel="Screenshot">
+                    <rect key="frame" x="15" y="49" width="242" height="208"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="mzP-5c-1Xp"/>
+                </imageView>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GQx-nF-WwW" userLabel="Icon">
+                    <rect key="frame" x="15" y="15" width="24" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="RCG-jT-5up"/>
+                        <constraint firstAttribute="height" constant="24" id="Wcf-lr-nVD"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="eJ7-uX-bmF"/>
+                </imageView>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Fic-zX-MnL" userLabel="Title">
+                    <rect key="frame" x="47" y="15" width="212" height="24"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="Ele-Pz-HHB"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="left" id="hyC-G4-rIF">
+                        <font key="font" metaFont="system" size="20"/>
+                        <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="Fic-zX-MnL" firstAttribute="trailing" secondItem="Hz6-mo-xeY" secondAttribute="trailing" constant="-15" id="7G0-e9-ZBN"/>
+                <constraint firstItem="2KQ-Po-e55" firstAttribute="trailing" secondItem="Hz6-mo-xeY" secondAttribute="trailing" constant="-15" id="C3R-6w-aJB"/>
+                <constraint firstItem="GQx-nF-WwW" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="15" id="GjZ-xi-spI"/>
+                <constraint firstItem="2KQ-Po-e55" firstAttribute="leading" secondItem="Hz6-mo-xeY" secondAttribute="leading" constant="15" id="KGe-qp-FNc"/>
+                <constraint firstItem="2KQ-Po-e55" firstAttribute="bottom" secondItem="Fic-zX-MnL" secondAttribute="top" constant="-10" id="Lic-HT-JdA"/>
+                <constraint firstItem="Fic-zX-MnL" firstAttribute="bottom" secondItem="Hz6-mo-xeY" secondAttribute="bottom" constant="-15" id="Zow-c2-KSE"/>
+                <constraint firstItem="2KQ-Po-e55" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="top" constant="15" id="fPb-d1-pVJ"/>
+                <constraint firstItem="GQx-nF-WwW" firstAttribute="bottom" secondItem="Hz6-mo-xeY" secondAttribute="bottom" constant="-15" id="seI-IB-e83"/>
+                <constraint firstItem="Fic-zX-MnL" firstAttribute="leading" secondItem="GQx-nF-WwW" secondAttribute="trailing" constant="10" id="uUY-HU-EdP"/>
+            </constraints>
+            <point key="canvasLocation" x="-119" y="169"/>
+        </customView>
+        <collectionViewItem nibName="WindowPreviewItem" id="891-ni-3uc" userLabel="SuggestedSnapItem" customClass="SuggestedSnapItem" customModule="DesktopSplitter" customModuleProvider="target">
+            <connections>
+                <outlet property="icon" destination="GQx-nF-WwW" id="gyC-En-ynq"/>
+                <outlet property="imageView" destination="2KQ-Po-e55" id="2d0-f6-t9E"/>
+                <outlet property="textField" destination="Fic-zX-MnL" id="xGb-hc-aEa"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="at9-aE-Q3I"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>
