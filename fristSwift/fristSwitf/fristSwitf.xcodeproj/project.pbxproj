@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57E76B7A231A1E140013AE8C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E76B79231A1E140013AE8C /* AppDelegate.swift */; };
+		57E76B7C231A1E140013AE8C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E76B7B231A1E140013AE8C /* ViewController.swift */; };
+		57E76B7E231A1E150013AE8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57E76B7D231A1E150013AE8C /* Assets.xcassets */; };
+		57E76B81231A1E150013AE8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57E76B7F231A1E150013AE8C /* Main.storyboard */; };
+		57E76B8D231A1E150013AE8C /* fristSwitfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E76B8C231A1E150013AE8C /* fristSwitfTests.swift */; };
+		57E76B98231A1E150013AE8C /* fristSwitfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E76B97231A1E150013AE8C /* fristSwitfUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57E76B89231A1E150013AE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57E76B6E231A1E130013AE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E76B75231A1E130013AE8C;
+			remoteInfo = fristSwitf;
+		};
+		57E76B94231A1E150013AE8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57E76B6E231A1E130013AE8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57E76B75231A1E130013AE8C;
+			remoteInfo = fristSwitf;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57E76B76231A1E130013AE8C /* fristSwitf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fristSwitf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E76B79231A1E140013AE8C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57E76B7B231A1E140013AE8C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57E76B7D231A1E150013AE8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57E76B80231A1E150013AE8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57E76B82231A1E150013AE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E76B83231A1E150013AE8C /* fristSwitf.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fristSwitf.entitlements; sourceTree = "<group>"; };
+		57E76B88231A1E150013AE8C /* fristSwitfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fristSwitfTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E76B8C231A1E150013AE8C /* fristSwitfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fristSwitfTests.swift; sourceTree = "<group>"; };
+		57E76B8E231A1E150013AE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57E76B93231A1E150013AE8C /* fristSwitfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fristSwitfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57E76B97231A1E150013AE8C /* fristSwitfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fristSwitfUITests.swift; sourceTree = "<group>"; };
+		57E76B99231A1E150013AE8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57E76B73231A1E130013AE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E76B85231A1E150013AE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E76B90231A1E150013AE8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57E76B6D231A1E130013AE8C = {
+			isa = PBXGroup;
+			children = (
+				57E76B78231A1E130013AE8C /* fristSwitf */,
+				57E76B8B231A1E150013AE8C /* fristSwitfTests */,
+				57E76B96231A1E150013AE8C /* fristSwitfUITests */,
+				57E76B77231A1E130013AE8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57E76B77231A1E130013AE8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57E76B76231A1E130013AE8C /* fristSwitf.app */,
+				57E76B88231A1E150013AE8C /* fristSwitfTests.xctest */,
+				57E76B93231A1E150013AE8C /* fristSwitfUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57E76B78231A1E130013AE8C /* fristSwitf */ = {
+			isa = PBXGroup;
+			children = (
+				57E76B79231A1E140013AE8C /* AppDelegate.swift */,
+				57E76B7B231A1E140013AE8C /* ViewController.swift */,
+				57E76B7D231A1E150013AE8C /* Assets.xcassets */,
+				57E76B7F231A1E150013AE8C /* Main.storyboard */,
+				57E76B82231A1E150013AE8C /* Info.plist */,
+				57E76B83231A1E150013AE8C /* fristSwitf.entitlements */,
+			);
+			path = fristSwitf;
+			sourceTree = "<group>";
+		};
+		57E76B8B231A1E150013AE8C /* fristSwitfTests */ = {
+			isa = PBXGroup;
+			children = (
+				57E76B8C231A1E150013AE8C /* fristSwitfTests.swift */,
+				57E76B8E231A1E150013AE8C /* Info.plist */,
+			);
+			path = fristSwitfTests;
+			sourceTree = "<group>";
+		};
+		57E76B96231A1E150013AE8C /* fristSwitfUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57E76B97231A1E150013AE8C /* fristSwitfUITests.swift */,
+				57E76B99231A1E150013AE8C /* Info.plist */,
+			);
+			path = fristSwitfUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57E76B75231A1E130013AE8C /* fristSwitf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E76B9C231A1E150013AE8C /* Build configuration list for PBXNativeTarget "fristSwitf" */;
+			buildPhases = (
+				57E76B72231A1E130013AE8C /* Sources */,
+				57E76B73231A1E130013AE8C /* Frameworks */,
+				57E76B74231A1E130013AE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fristSwitf;
+			productName = fristSwitf;
+			productReference = 57E76B76231A1E130013AE8C /* fristSwitf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57E76B87231A1E150013AE8C /* fristSwitfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E76B9F231A1E150013AE8C /* Build configuration list for PBXNativeTarget "fristSwitfTests" */;
+			buildPhases = (
+				57E76B84231A1E150013AE8C /* Sources */,
+				57E76B85231A1E150013AE8C /* Frameworks */,
+				57E76B86231A1E150013AE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E76B8A231A1E150013AE8C /* PBXTargetDependency */,
+			);
+			name = fristSwitfTests;
+			productName = fristSwitfTests;
+			productReference = 57E76B88231A1E150013AE8C /* fristSwitfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57E76B92231A1E150013AE8C /* fristSwitfUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E76BA2231A1E150013AE8C /* Build configuration list for PBXNativeTarget "fristSwitfUITests" */;
+			buildPhases = (
+				57E76B8F231A1E150013AE8C /* Sources */,
+				57E76B90231A1E150013AE8C /* Frameworks */,
+				57E76B91231A1E150013AE8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57E76B95231A1E150013AE8C /* PBXTargetDependency */,
+			);
+			name = fristSwitfUITests;
+			productName = fristSwitfUITests;
+			productReference = 57E76B93231A1E150013AE8C /* fristSwitfUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57E76B6E231A1E130013AE8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "iONCreate Studio";
+				TargetAttributes = {
+					57E76B75231A1E130013AE8C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					57E76B87231A1E150013AE8C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 57E76B75231A1E130013AE8C;
+					};
+					57E76B92231A1E150013AE8C = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 57E76B75231A1E130013AE8C;
+					};
+				};
+			};
+			buildConfigurationList = 57E76B71231A1E130013AE8C /* Build configuration list for PBXProject "fristSwitf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57E76B6D231A1E130013AE8C;
+			productRefGroup = 57E76B77231A1E130013AE8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57E76B75231A1E130013AE8C /* fristSwitf */,
+				57E76B87231A1E150013AE8C /* fristSwitfTests */,
+				57E76B92231A1E150013AE8C /* fristSwitfUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57E76B74231A1E130013AE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E76B7E231A1E150013AE8C /* Assets.xcassets in Resources */,
+				57E76B81231A1E150013AE8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E76B86231A1E150013AE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E76B91231A1E150013AE8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57E76B72231A1E130013AE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E76B7C231A1E140013AE8C /* ViewController.swift in Sources */,
+				57E76B7A231A1E140013AE8C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E76B84231A1E150013AE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E76B8D231A1E150013AE8C /* fristSwitfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57E76B8F231A1E150013AE8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57E76B98231A1E150013AE8C /* fristSwitfUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57E76B8A231A1E150013AE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57E76B75231A1E130013AE8C /* fristSwitf */;
+			targetProxy = 57E76B89231A1E150013AE8C /* PBXContainerItemProxy */;
+		};
+		57E76B95231A1E150013AE8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57E76B75231A1E130013AE8C /* fristSwitf */;
+			targetProxy = 57E76B94231A1E150013AE8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57E76B7F231A1E150013AE8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57E76B80231A1E150013AE8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57E76B9A231A1E150013AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57E76B9B231A1E150013AE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		57E76B9D231A1E150013AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fristSwitf/fristSwitf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W6D87PSA67;
+				INFOPLIST_FILE = fristSwitf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioncreate.fristSwitf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		57E76B9E231A1E150013AE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fristSwitf/fristSwitf.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W6D87PSA67;
+				INFOPLIST_FILE = fristSwitf/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioncreate.fristSwitf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		57E76BA0231A1E150013AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W6D87PSA67;
+				INFOPLIST_FILE = fristSwitfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioncreate.fristSwitfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fristSwitf.app/Contents/MacOS/fristSwitf";
+			};
+			name = Debug;
+		};
+		57E76BA1231A1E150013AE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W6D87PSA67;
+				INFOPLIST_FILE = fristSwitfTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioncreate.fristSwitfTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fristSwitf.app/Contents/MacOS/fristSwitf";
+			};
+			name = Release;
+		};
+		57E76BA3231A1E150013AE8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W6D87PSA67;
+				INFOPLIST_FILE = fristSwitfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioncreate.fristSwitfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = fristSwitf;
+			};
+			name = Debug;
+		};
+		57E76BA4231A1E150013AE8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W6D87PSA67;
+				INFOPLIST_FILE = fristSwitfUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ioncreate.fristSwitfUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = fristSwitf;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57E76B71231A1E130013AE8C /* Build configuration list for PBXProject "fristSwitf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E76B9A231A1E150013AE8C /* Debug */,
+				57E76B9B231A1E150013AE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E76B9C231A1E150013AE8C /* Build configuration list for PBXNativeTarget "fristSwitf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E76B9D231A1E150013AE8C /* Debug */,
+				57E76B9E231A1E150013AE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E76B9F231A1E150013AE8C /* Build configuration list for PBXNativeTarget "fristSwitfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E76BA0231A1E150013AE8C /* Debug */,
+				57E76BA1231A1E150013AE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E76BA2231A1E150013AE8C /* Build configuration list for PBXNativeTarget "fristSwitfUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57E76BA3231A1E150013AE8C /* Debug */,
+				57E76BA4231A1E150013AE8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57E76B6E231A1E130013AE8C /* Project object */;
+}
